@@ -40,5 +40,6 @@ class BubbleIndicatorPainter extends CustomPainter {
     path.addArc(
         Rect.fromCircle(center: entry, radius: radius), 0.5 * pi, 1 * pi);
     path.addRect(Rect.fromLTRB(entry.dx, dy - radius, target.dx, dy + radius));
+    path.addArc(
   
 }
