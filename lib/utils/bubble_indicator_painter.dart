@@ -30,4 +30,6 @@ class BubbleIndicatorPainter extends CustomPainter {
     final double fullExtent =
         pos.maxScrollExtent - pos.minScrollExtent + pos.viewportDimension;
 
+    final double pageOffset = pos.extentBefore / fullExtent;
+
  
