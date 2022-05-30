@@ -34,4 +34,6 @@ class BubbleIndicatorPainter extends CustomPainter {
 
     final bool left2right = dxEntry < dxTarget;
     final Offset entry = Offset(left2right ? dxEntry : dxTarget, dy);
+    final Offset target = Offset(left2right ? dxTarget : dxEntry, dy);
+
  
