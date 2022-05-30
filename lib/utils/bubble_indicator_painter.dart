@@ -5,4 +5,5 @@ import 'package:the_gorgeous_login/theme.dart';
 
 class BubbleIndicatorPainter extends CustomPainter {
   BubbleIndicatorPainter(
+      {this.dxTarget = 125.0,
  
