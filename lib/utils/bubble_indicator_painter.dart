@@ -41,8 +41,12 @@ class BubbleIndicatorPainter extends CustomPainter {
         Rect.fromCircle(center: entry, radius: radius), 0.5 * pi, 1 * pi);
     path.addRect(Rect.fromLTRB(entry.dx, dy - radius, target.dx, dy + radius));
     path.addArc(
-        Rect.fromCircle(center: target, radius: radius), 1.5 * pi, 1 * pi)
+        Rect.fromCircle(center: target, radius: radius), 1.5 * pi, 1 * pi);
 
+    canvas.translate(size.width * pageOffset, 0.0);
+    canvas.drawShadow(path, CustomTheme.loginGradientStart, 3.0, true);
+    canvas.drawPath(path, painter);
+  }
 
   @override
   bool shouldRepaint(BubbleIndicatorPainter oldDelegate) => true;
