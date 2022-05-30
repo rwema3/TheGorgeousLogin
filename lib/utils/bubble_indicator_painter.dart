@@ -28,4 +28,6 @@ class BubbleIndicatorPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final ScrollPosition pos = pageController.position;
     final double fullExtent =
+        pos.maxScrollExtent - pos.minScrollExtent + pos.viewportDimension;
+
  
