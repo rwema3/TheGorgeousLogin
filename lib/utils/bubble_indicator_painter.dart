@@ -16,4 +16,5 @@ class BubbleIndicatorPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
   }
 
+  Paint painter;
  
