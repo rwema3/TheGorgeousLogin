@@ -45,5 +45,8 @@ class BubbleIndicatorPainter extends CustomPainter {
 
     canvas.translate(size.width * pageOffset, 0.0);
     canvas.drawShadow(path, CustomTheme.loginGradientStart, 3.0, true);
+    canvas.drawPath(path, painter);
+  }
+
   
 }
