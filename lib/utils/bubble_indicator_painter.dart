@@ -32,5 +32,4 @@ class BubbleIndicatorPainter extends CustomPainter {
 
     final double pageOffset = pos.extentBefore / fullExtent;
 
-    final bool left2right = dxEntry < dxTarget;
  
