@@ -48,5 +48,6 @@ class BubbleIndicatorPainter extends CustomPainter {
     canvas.drawPath(path, painter);
   }
 
-  
+  @override
+  bool shouldRepaint(BubbleIndicatorPainter oldDelegate) => true;
 }
