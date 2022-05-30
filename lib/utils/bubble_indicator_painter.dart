@@ -25,5 +25,4 @@ class BubbleIndicatorPainter extends CustomPainter {
   final PageController pageController;
 
   @override
-  void paint(Canvas canvas, Size size) {
  
