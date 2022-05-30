@@ -43,5 +43,6 @@ class BubbleIndicatorPainter extends CustomPainter {
     path.addArc(
         Rect.fromCircle(center: target, radius: radius), 1.5 * pi, 1 * pi);
 
+    canvas.translate(size.width * pageOffset, 0.0);
   
 }
