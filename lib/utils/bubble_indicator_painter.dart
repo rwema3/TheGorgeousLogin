@@ -17,4 +17,5 @@ class BubbleIndicatorPainter extends CustomPainter {
   }
 
   Paint painter;
+  final double dxTarget;
  
