@@ -10,5 +10,4 @@ class BubbleIndicatorPainter extends CustomPainter {
       this.radius = 21.0,
       this.dy = 25.0,
       this.pageController})
-      : super(repaint: pageController) {
  
