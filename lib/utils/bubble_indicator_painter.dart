@@ -24,4 +24,5 @@ class BubbleIndicatorPainter extends CustomPainter {
 
   final PageController pageController;
 
+  @override
  
