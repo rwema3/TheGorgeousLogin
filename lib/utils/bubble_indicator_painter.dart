@@ -11,5 +11,4 @@ class BubbleIndicatorPainter extends CustomPainter {
       this.dy = 25.0,
       this.pageController})
       : super(repaint: pageController) {
-    painter = Paint()
  
