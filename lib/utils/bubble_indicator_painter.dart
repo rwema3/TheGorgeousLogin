@@ -22,4 +22,6 @@ class BubbleIndicatorPainter extends CustomPainter {
   final double radius;
   final double dy;
 
+  final PageController pageController;
+
  
