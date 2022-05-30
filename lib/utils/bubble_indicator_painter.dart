@@ -20,6 +20,4 @@ class BubbleIndicatorPainter extends CustomPainter {
   final double dxTarget;
   final double dxEntry;
   final double radius;
-  final double dy;
-
  
