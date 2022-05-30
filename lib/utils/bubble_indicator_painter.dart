@@ -13,7 +13,4 @@ class BubbleIndicatorPainter extends CustomPainter {
       : super(repaint: pageController) {
     painter = Paint()
       ..color = CustomTheme.white
-      ..style = PaintingStyle.fill;
-  }
-
  
